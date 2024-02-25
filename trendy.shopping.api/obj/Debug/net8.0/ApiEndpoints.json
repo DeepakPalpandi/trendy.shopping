@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "trendy.shopping.api.Controllers.CustomerController",
+    "Method": "DeleteCustomer",
+    "RelativePath": "customer/delete-customer",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "trendy.shopping.api.Controllers.CustomerController",
+    "Method": "LoginCustomer",
+    "RelativePath": "customer/log-in/{loginBy}/{password}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginBy",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "trendy.shopping.api.Controllers.CustomerController",
+    "Method": "SignupCustomer",
+    "RelativePath": "customer/sign-up",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "trendy.shopping.domain.Dto.Customers.CustomersDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "trendy.shopping.api.Controllers.CustomerController",
+    "Method": "UpdateCustomer",
+    "RelativePath": "customer/update-customer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "trendy.shopping.domain.Dto.Customers.CustomersDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
